@@ -3,7 +3,6 @@ version: 0.1.0
 slug: overseerr
 description: Request management and media discovery tool for the Plex ecosystem
 url: https://github.com/jaws35smith/hassio-repository-test/blob/master/overseerr/README.md
-codenotary: jaws35smith
 ingress: true
 ingress_port: 1337
 ingress_stream: true
