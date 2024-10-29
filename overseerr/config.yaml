@@ -18,4 +18,4 @@ map:
 - media:rw
 #ports:
 #  5055/tcp: 5055
-image: lscr.io/linuxserver/overseerr
+image: ghcr.io/hassio-addons/overseerr/{arch}
