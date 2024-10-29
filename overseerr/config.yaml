@@ -2,7 +2,7 @@ name: Overseerr
 version: 0.1.0
 slug: overseerr
 description: Request management and media discovery tool for the Plex ecosystem
-url: https://github.com/hassio-addons/addon-overseerr/tree/main/README.md
+url: https://github.com/jaws35smith/hassio-repository-test/blob/master/overseerr/README.md
 ingress: true
 ingress_port: 1337
 ingress_stream: true
