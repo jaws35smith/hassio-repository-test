@@ -5,8 +5,8 @@ description: Request management and media discovery tool for the Plex ecosystem
 url: https://github.com/jaws35smith/hassio-repository-test/blob/master/overseerr/README.md
 ingress: true
 ingress_port: 5055
-ingress_entry": "/"
-webui: http://[HOST]:[PORT:5055]
+ingress_entry: "/"
+webui: "http://[HOST]:[INGRESS_PORT]"
 init: false
 arch:
 - aarch64
@@ -16,6 +16,6 @@ map:
 - addon_config:rw
 - share:rw
 - media:rw
-ports:
-  5055/tcp: 5055
-image: ghcr.io/hassio-addons/overseerr/{arch}
+#ports:
+#  5055/tcp: 5055
+image: lscr.io/linuxserver/overseerr
