@@ -6,7 +6,7 @@ url: https://github.com/jaws35smith/hassio-repository-test/blob/master/overseerr
 ingress: true
 ingress_port: 5055
 ingress_stream: true
-webui: "http://[HOST]:[INGRESS_PORT]"
+# webui: "http://[HOST]:[INGRESS_PORT]"
 init: false
 arch:
 - aarch64
