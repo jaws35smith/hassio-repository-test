@@ -5,7 +5,7 @@ description: Request management and media discovery tool for the Plex ecosystem
 url: https://github.com/jaws35smith/hassio-repository-test/blob/master/overseerr/README.md
 ingress: true
 ingress_port: 5055
-ingress_stream: true
+ingress_entry": "/"
 webui: http://[HOST]:[PORT:5055]
 init: false
 arch:
